@@ -23,9 +23,23 @@ internal final class AppEnvironment: Environment {
 /// Router.
 internal protocol Router {
 
+
+
 }
 
 internal struct AppRouter: Router {
+
+    func reset() {
+
+    }
+
+    func routeToMainScreen() {
+
+    }
+
+    func routeToOnboarding() {
+
+    }
 
 }
 
