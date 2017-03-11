@@ -8,8 +8,10 @@
 
 import Foundation
 
+/// Application constants.
 internal struct Constants {
 
+    /// Constants related to animations.
     struct Animations {
 
         static let defaultCrossDissolveAnimationDuration: TimeInterval = 0.35

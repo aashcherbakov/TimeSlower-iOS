@@ -8,6 +8,7 @@
 
 import UIKit
 
-internal final class ActivityListViewController: UIViewController {
-    
+internal final class ActivityListViewController: UIViewController, StoryboardInstantiatable {
+
+
 }
