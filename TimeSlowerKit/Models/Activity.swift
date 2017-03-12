@@ -21,7 +21,26 @@ public protocol Activity {
 
 }
 
-public struct Routine {
+public struct Routine: Activity {
+    public var resourceId: String
+    public var name: String
+    public var notifications: Bool
+    public var timing: Timing
+    public var stats: Stats
+    public var estimates: Estimates
+    public var days: [Weekday]
+    public var results: Set<Result>
 
 
+    public init(name: String, days: [Weekday], timing: Timing, notifications: Bool = false) {
+        self.name = name
+        self.days = days
+        self.timing = timing
+        self.notifications = notifications
+
+        resourceId = UUID().uuidString
+        estimates = Estimates()
+        results = []
+        stats = Stats()
+    }
 }
