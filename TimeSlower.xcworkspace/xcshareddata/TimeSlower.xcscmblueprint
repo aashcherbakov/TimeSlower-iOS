@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F9C3AD3D52BC93AE6C755F0FCAA595B15184364E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F9C3AD3D52BC93AE6C755F0FCAA595B15184364E" : 9223372036854775807,
+    "7533305DE8E8CF33AB3FE355227A84FA949FA597" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2A2F7912-E884-4ED6-8DD0-4265BC42B7E9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F9C3AD3D52BC93AE6C755F0FCAA595B15184364E" : "TimeSlower\/",
+    "7533305DE8E8CF33AB3FE355227A84FA949FA597" : "TimeSlower-Old\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TimeSlower",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TimeSlower.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:aashcherbakov\/TimeSlower.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7533305DE8E8CF33AB3FE355227A84FA949FA597"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:aashcherbakov\/TimeSlower-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F9C3AD3D52BC93AE6C755F0FCAA595B15184364E"
+    }
+  ]
+}

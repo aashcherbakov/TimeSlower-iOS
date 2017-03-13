@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>TimeSlowerDataBase.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>TimeSlowerKit.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
@@ -25,6 +30,16 @@
 			<true/>
 		</dict>
 		<key>B60927161E74AAA5000FDB50</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B698E3041E74E584007F717F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B698E30C1E74E584007F717F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -8,8 +8,10 @@
 
 import Foundation
 
+/// Interface for User object that describes current user of the app.
 public protocol User {
 
+    var resourceId: String { get }
     var age: Double { get }
     var country: String { get }
     var name: String { get }
@@ -17,8 +19,10 @@ public protocol User {
 
 }
 
+/// Struct that describes a user that created an account.
 public struct RegisteredUser: User {
 
+    public let resourceId: String
     public let age: Double
     public let country: String
     public let name: String
@@ -29,12 +33,15 @@ public struct RegisteredUser: User {
         self.country = country
         self.name = name
         self.image = image
+        self.resourceId = UUID().uuidString
     }
 
 }
 
+/// Struct that describes anonymous user.
 public struct AnonymousUser: User {
 
+    public var resourceId: String = UUID().uuidString
     public var age: Double = 25
     public var country: String = "USA"
     public var name: String = "Anonymous"
