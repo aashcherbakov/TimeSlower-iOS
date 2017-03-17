@@ -9,7 +9,8 @@
 import UIKit
 
 /// Protocol that unites UIViewControllers and alows to use generics for creation
-protocol StoryboardInstantiatable { }
+protocol StoryboardInstantiatable {
+}
 
 /**
  *  Struct that alows simple creation of controllers using generics

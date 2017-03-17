@@ -10,17 +10,9 @@ import Foundation
 
 internal protocol Resource {
 
-    func create<T: Persistable>(_ object: T) -> T
+    func create<T: Persistable>(_ object: T, completion: (T) -> Void)
     func retrieve<T: Persistable>(_ key: String) -> T?
 
 }
 
-internal struct LocalResource: Resource {
-    func create<T : Persistable>(_ object: T) -> T {
-        return "" as! T
-    }
 
-    func retrieve<T : Persistable>(_ key: String) -> T? {
-        return nil
-    }
-}

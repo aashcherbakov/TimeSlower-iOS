@@ -26,10 +26,8 @@ internal struct AppViewControllerBuilder: ViewControllerBuilder {
 
     func buildController(for destination: Destination) -> UIViewController {
         switch destination {
-        case .activityList:
-            return buildActivityList()
-        case .editActivity:
-            return buildCreateActivity()
+        case .activityList: return buildActivityList()
+        case .editActivity: return buildCreateActivity()
         }
     }
 
