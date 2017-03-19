@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B6DB01281E718BA900EC068C"
-               BuildableName = "TimeSlower.app"
-               BlueprintName = "TimeSlower"
+               BlueprintIdentifier = "B609270E1E74AAA5000FDB50"
+               BuildableName = "TimeSlowerKit.framework"
+               BlueprintName = "TimeSlowerKit"
                ReferencedContainer = "container:TimeSlower.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,36 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B6DB013F1E718BA900EC068C"
-               BuildableName = "TimeSlowerTests.xctest"
-               BlueprintName = "TimeSlowerTests"
-               ReferencedContainer = "container:TimeSlower.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B6DB014A1E718BA900EC068C"
-               BuildableName = "TimeSlowerUITests.xctest"
-               BlueprintName = "TimeSlowerUITests"
-               ReferencedContainer = "container:TimeSlower.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B6DB01281E718BA900EC068C"
-            BuildableName = "TimeSlower.app"
-            BlueprintName = "TimeSlower"
-            ReferencedContainer = "container:TimeSlower.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -71,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B6DB01281E718BA900EC068C"
-            BuildableName = "TimeSlower.app"
-            BlueprintName = "TimeSlower"
+            BlueprintIdentifier = "B609270E1E74AAA5000FDB50"
+            BuildableName = "TimeSlowerKit.framework"
+            BlueprintName = "TimeSlowerKit"
             ReferencedContainer = "container:TimeSlower.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -90,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B6DB01281E718BA900EC068C"
-            BuildableName = "TimeSlower.app"
-            BlueprintName = "TimeSlower"
+            BlueprintIdentifier = "B609270E1E74AAA5000FDB50"
+            BuildableName = "TimeSlowerKit.framework"
+            BlueprintName = "TimeSlowerKit"
             ReferencedContainer = "container:TimeSlower.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

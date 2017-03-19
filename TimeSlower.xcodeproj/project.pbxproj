@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E0C415FCD6C1D4C3B06CA5A /* Pods_TimeSlower.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB2425E9B134776373DD5C7 /* Pods_TimeSlower.framework */; };
 		B60926DB1E7457AA000FDB50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60926D71E7457AA000FDB50 /* LaunchScreen.storyboard */; };
 		B60926DF1E7457DB000FDB50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60926DD1E7457DB000FDB50 /* Main.storyboard */; };
 		B60926E51E74582D000FDB50 /* ActivityListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60926E21E74582D000FDB50 /* ActivityListViewController.swift */; };
@@ -16,20 +17,55 @@
 		B60927011E74A279000FDB50 /* PresentationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60926FA1E74A279000FDB50 /* PresentationStyle.swift */; };
 		B60927021E74A279000FDB50 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60926FB1E74A279000FDB50 /* RootViewController.swift */; };
 		B60927031E74A279000FDB50 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60926FC1E74A279000FDB50 /* Router.swift */; };
-		B60927041E74A279000FDB50 /* StoryboardInstantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60926FD1E74A279000FDB50 /* StoryboardInstantiatable.swift */; };
 		B60927051E74A279000FDB50 /* ViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60926FE1E74A279000FDB50 /* ViewControllerBuilder.swift */; };
 		B60927061E74A279000FDB50 /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60926FF1E74A279000FDB50 /* ViewControllerFactory.swift */; };
+		B60927181E74AAA5000FDB50 /* TimeSlowerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B609270F1E74AAA5000FDB50 /* TimeSlowerKit.framework */; };
+		B609271F1E74AAA5000FDB50 /* TimeSlowerKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B609271E1E74AAA5000FDB50 /* TimeSlowerKitTests.swift */; };
+		B60927211E74AAA5000FDB50 /* TimeSlowerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B60927111E74AAA5000FDB50 /* TimeSlowerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B60927241E74AAA5000FDB50 /* TimeSlowerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B609270F1E74AAA5000FDB50 /* TimeSlowerKit.framework */; };
+		B60927251E74AAA5000FDB50 /* TimeSlowerKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B609270F1E74AAA5000FDB50 /* TimeSlowerKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B609272F1E74AB1C000FDB50 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B609272E1E74AB1C000FDB50 /* User.swift */; };
+		B60927311E74ACD1000FDB50 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60927301E74ACD1000FDB50 /* Activity.swift */; };
+		B60927331E74B27D000FDB50 /* Timing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60927321E74B27D000FDB50 /* Timing.swift */; };
+		B60927351E74B284000FDB50 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60927341E74B284000FDB50 /* Stats.swift */; };
+		B60927371E74B295000FDB50 /* Estimates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60927361E74B295000FDB50 /* Estimates.swift */; };
+		B60927391E74B2BA000FDB50 /* Weekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60927381E74B2BA000FDB50 /* Weekday.swift */; };
+		B609273B1E74B3F9000FDB50 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B609273A1E74B3F9000FDB50 /* Result.swift */; };
+		B698E2FD1E74DFE3007F717F /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698E2FC1E74DFE3007F717F /* Resource.swift */; };
+		B698E2FF1E74E0ED007F717F /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698E2FE1E74E0ED007F717F /* Persistable.swift */; };
+		B698E3771E7C1ACC007F717F /* LocalResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698E3761E7C1ACC007F717F /* LocalResource.swift */; };
 		B6DB012D1E718BA900EC068C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DB012C1E718BA900EC068C /* AppDelegate.swift */; };
-		B6DB01351E718BA900EC068C /* TimeSlower.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6DB01331E718BA900EC068C /* TimeSlower.xcdatamodeld */; };
 		B6DB01371E718BA900EC068C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6DB01361E718BA900EC068C /* Assets.xcassets */; };
 		B6DB013A1E718BA900EC068C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6DB01381E718BA900EC068C /* LaunchScreen.storyboard */; };
 		B6DB01451E718BA900EC068C /* TimeSlowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DB01441E718BA900EC068C /* TimeSlowerTests.swift */; };
 		B6DB01501E718BA900EC068C /* TimeSlowerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DB014F1E718BA900EC068C /* TimeSlowerUITests.swift */; };
 		B6DB01621E71908E00EC068C /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DB01611E71908E00EC068C /* Environment.swift */; };
 		B6EBFBA11E719F7D0061BA37 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EBFBA01E719F7D0061BA37 /* Constants.swift */; };
+		F3BBCB1A313C8E2DFC9165DB /* Pods_TimeSlower_TimeSlowerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DFF70F7B54BCC20E25F005 /* Pods_TimeSlower_TimeSlowerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		B60927191E74AAA5000FDB50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6DB01211E718BA900EC068C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B609270E1E74AAA5000FDB50;
+			remoteInfo = TimeSlowerKit;
+		};
+		B609271B1E74AAA5000FDB50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6DB01211E718BA900EC068C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6DB01281E718BA900EC068C;
+			remoteInfo = TimeSlower;
+		};
+		B60927221E74AAA5000FDB50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6DB01211E718BA900EC068C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B609270E1E74AAA5000FDB50;
+			remoteInfo = TimeSlowerKit;
+		};
 		B6DB01411E718BA900EC068C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B6DB01211E718BA900EC068C /* Project object */;
@@ -46,7 +82,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B60927291E74AAA5000FDB50 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B60927251E74AAA5000FDB50 /* TimeSlowerKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0AB2425E9B134776373DD5C7 /* Pods_TimeSlower.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeSlower.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12085285336A5E9A2F1EC324 /* Pods-TimeSlower-TimeSlowerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeSlower-TimeSlowerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimeSlower-TimeSlowerTests/Pods-TimeSlower-TimeSlowerTests.release.xcconfig"; sourceTree = "<group>"; };
+		497FA0A83F4E9E2FC7A54D13 /* Pods-TimeSlower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeSlower.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimeSlower/Pods-TimeSlower.release.xcconfig"; sourceTree = "<group>"; };
 		B60926D81E7457AA000FDB50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B60926DE1E7457DB000FDB50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		B60926E21E74582D000FDB50 /* ActivityListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityListViewController.swift; sourceTree = "<group>"; };
@@ -56,12 +109,26 @@
 		B60926FA1E74A279000FDB50 /* PresentationStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationStyle.swift; sourceTree = "<group>"; };
 		B60926FB1E74A279000FDB50 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		B60926FC1E74A279000FDB50 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		B60926FD1E74A279000FDB50 /* StoryboardInstantiatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiatable.swift; sourceTree = "<group>"; };
 		B60926FE1E74A279000FDB50 /* ViewControllerBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerBuilder.swift; sourceTree = "<group>"; };
 		B60926FF1E74A279000FDB50 /* ViewControllerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerFactory.swift; sourceTree = "<group>"; };
+		B609270F1E74AAA5000FDB50 /* TimeSlowerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TimeSlowerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60927111E74AAA5000FDB50 /* TimeSlowerKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeSlowerKit.h; sourceTree = "<group>"; };
+		B60927121E74AAA5000FDB50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B60927171E74AAA5000FDB50 /* TimeSlowerKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeSlowerKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B609271E1E74AAA5000FDB50 /* TimeSlowerKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSlowerKitTests.swift; sourceTree = "<group>"; };
+		B60927201E74AAA5000FDB50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B609272E1E74AB1C000FDB50 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B60927301E74ACD1000FDB50 /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		B60927321E74B27D000FDB50 /* Timing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timing.swift; sourceTree = "<group>"; };
+		B60927341E74B284000FDB50 /* Stats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		B60927361E74B295000FDB50 /* Estimates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Estimates.swift; sourceTree = "<group>"; };
+		B60927381E74B2BA000FDB50 /* Weekday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weekday.swift; sourceTree = "<group>"; };
+		B609273A1E74B3F9000FDB50 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		B698E2FC1E74DFE3007F717F /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		B698E2FE1E74E0ED007F717F /* Persistable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
+		B698E3761E7C1ACC007F717F /* LocalResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalResource.swift; sourceTree = "<group>"; };
 		B6DB01291E718BA900EC068C /* TimeSlower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeSlower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6DB012C1E718BA900EC068C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B6DB01341E718BA900EC068C /* TimeSlower.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimeSlower.xcdatamodel; sourceTree = "<group>"; };
 		B6DB01361E718BA900EC068C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6DB01391E718BA900EC068C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6DB013B1E718BA900EC068C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,13 +140,33 @@
 		B6DB01511E718BA900EC068C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6DB01611E71908E00EC068C /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		B6EBFBA01E719F7D0061BA37 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B971D1650C4D1353B157BD82 /* Pods-TimeSlower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeSlower.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeSlower/Pods-TimeSlower.debug.xcconfig"; sourceTree = "<group>"; };
+		D5D3EA7586F8E27309DF1BF8 /* Pods-TimeSlower-TimeSlowerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeSlower-TimeSlowerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeSlower-TimeSlowerTests/Pods-TimeSlower-TimeSlowerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9DFF70F7B54BCC20E25F005 /* Pods_TimeSlower_TimeSlowerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeSlower_TimeSlowerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B609270B1E74AAA5000FDB50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60927141E74AAA5000FDB50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60927181E74AAA5000FDB50 /* TimeSlowerKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B6DB01261E718BA900EC068C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B60927241E74AAA5000FDB50 /* TimeSlowerKit.framework in Frameworks */,
+				9E0C415FCD6C1D4C3B06CA5A /* Pods_TimeSlower.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +174,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3BBCB1A313C8E2DFC9165DB /* Pods_TimeSlower_TimeSlowerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +188,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		048B0B71EB6736A2BDEC06D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B971D1650C4D1353B157BD82 /* Pods-TimeSlower.debug.xcconfig */,
+				497FA0A83F4E9E2FC7A54D13 /* Pods-TimeSlower.release.xcconfig */,
+				D5D3EA7586F8E27309DF1BF8 /* Pods-TimeSlower-TimeSlowerTests.debug.xcconfig */,
+				12085285336A5E9A2F1EC324 /* Pods-TimeSlower-TimeSlowerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B60926D61E7457AA000FDB50 /* Base.lproj */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,15 +237,57 @@
 		B60926F81E74A279000FDB50 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				B60926F91E74A279000FDB50 /* Destination.swift */,
 				B60926FA1E74A279000FDB50 /* PresentationStyle.swift */,
 				B60926FB1E74A279000FDB50 /* RootViewController.swift */,
 				B60926FC1E74A279000FDB50 /* Router.swift */,
-				B60926FD1E74A279000FDB50 /* StoryboardInstantiatable.swift */,
+				B60926F91E74A279000FDB50 /* Destination.swift */,
 				B60926FE1E74A279000FDB50 /* ViewControllerBuilder.swift */,
 				B60926FF1E74A279000FDB50 /* ViewControllerFactory.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		B60927101E74AAA5000FDB50 /* TimeSlowerKit */ = {
+			isa = PBXGroup;
+			children = (
+				B609272D1E74AABB000FDB50 /* Models */,
+				B60927111E74AAA5000FDB50 /* TimeSlowerKit.h */,
+				B60927121E74AAA5000FDB50 /* Info.plist */,
+			);
+			path = TimeSlowerKit;
+			sourceTree = "<group>";
+		};
+		B609271D1E74AAA5000FDB50 /* TimeSlowerKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				B609271E1E74AAA5000FDB50 /* TimeSlowerKitTests.swift */,
+				B60927201E74AAA5000FDB50 /* Info.plist */,
+			);
+			path = TimeSlowerKitTests;
+			sourceTree = "<group>";
+		};
+		B609272D1E74AABB000FDB50 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B609272E1E74AB1C000FDB50 /* User.swift */,
+				B60927301E74ACD1000FDB50 /* Activity.swift */,
+				B609273A1E74B3F9000FDB50 /* Result.swift */,
+				B60927341E74B284000FDB50 /* Stats.swift */,
+				B60927361E74B295000FDB50 /* Estimates.swift */,
+				B60927321E74B27D000FDB50 /* Timing.swift */,
+				B60927381E74B2BA000FDB50 /* Weekday.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B698E2FB1E74DFD9007F717F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B698E2FE1E74E0ED007F717F /* Persistable.swift */,
+				B698E2FC1E74DFE3007F717F /* Resource.swift */,
+				B698E3761E7C1ACC007F717F /* LocalResource.swift */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		B6DB01201E718BA900EC068C = {
@@ -155,7 +296,11 @@
 				B6DB012B1E718BA900EC068C /* TimeSlower */,
 				B6DB01431E718BA900EC068C /* TimeSlowerTests */,
 				B6DB014E1E718BA900EC068C /* TimeSlowerUITests */,
+				B60927101E74AAA5000FDB50 /* TimeSlowerKit */,
+				B609271D1E74AAA5000FDB50 /* TimeSlowerKitTests */,
 				B6DB012A1E718BA900EC068C /* Products */,
+				048B0B71EB6736A2BDEC06D9 /* Pods */,
+				E308C2F18CA6EE428498A088 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -165,6 +310,8 @@
 				B6DB01291E718BA900EC068C /* TimeSlower.app */,
 				B6DB01401E718BA900EC068C /* TimeSlowerTests.xctest */,
 				B6DB014B1E718BA900EC068C /* TimeSlowerUITests.xctest */,
+				B609270F1E74AAA5000FDB50 /* TimeSlowerKit.framework */,
+				B60927171E74AAA5000FDB50 /* TimeSlowerKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,6 +321,7 @@
 			children = (
 				B6DB012C1E718BA900EC068C /* AppDelegate.swift */,
 				B6EBFBA01E719F7D0061BA37 /* Constants.swift */,
+				B698E2FB1E74DFD9007F717F /* Resource */,
 				B6DB015F1E71907400EC068C /* Environment */,
 				B60926F81E74A279000FDB50 /* Navigation */,
 				B60926E01E74582D000FDB50 /* Features */,
@@ -182,7 +330,6 @@
 				B6DB01361E718BA900EC068C /* Assets.xcassets */,
 				B6DB01381E718BA900EC068C /* LaunchScreen.storyboard */,
 				B6DB013B1E718BA900EC068C /* Info.plist */,
-				B6DB01331E718BA900EC068C /* TimeSlower.xcdatamodeld */,
 			);
 			path = TimeSlower;
 			sourceTree = "<group>";
@@ -220,20 +367,82 @@
 			path = Utility;
 			sourceTree = "<group>";
 		};
+		E308C2F18CA6EE428498A088 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AB2425E9B134776373DD5C7 /* Pods_TimeSlower.framework */,
+				D9DFF70F7B54BCC20E25F005 /* Pods_TimeSlower_TimeSlowerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		B609270C1E74AAA5000FDB50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60927211E74AAA5000FDB50 /* TimeSlowerKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		B6DB01281E718BA900EC068C /* TimeSlower */ = {
+		B609270E1E74AAA5000FDB50 /* TimeSlowerKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6DB01541E718BA900EC068C /* Build configuration list for PBXNativeTarget "TimeSlower" */;
+			buildConfigurationList = B60927261E74AAA5000FDB50 /* Build configuration list for PBXNativeTarget "TimeSlowerKit" */;
 			buildPhases = (
-				B6DB01251E718BA900EC068C /* Sources */,
-				B6DB01261E718BA900EC068C /* Frameworks */,
-				B6DB01271E718BA900EC068C /* Resources */,
+				B609270A1E74AAA5000FDB50 /* Sources */,
+				B609270B1E74AAA5000FDB50 /* Frameworks */,
+				B609270C1E74AAA5000FDB50 /* Headers */,
+				B609270D1E74AAA5000FDB50 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = TimeSlowerKit;
+			productName = TimeSlowerKit;
+			productReference = B609270F1E74AAA5000FDB50 /* TimeSlowerKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B60927161E74AAA5000FDB50 /* TimeSlowerKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B609272A1E74AAA5000FDB50 /* Build configuration list for PBXNativeTarget "TimeSlowerKitTests" */;
+			buildPhases = (
+				B60927131E74AAA5000FDB50 /* Sources */,
+				B60927141E74AAA5000FDB50 /* Frameworks */,
+				B60927151E74AAA5000FDB50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B609271A1E74AAA5000FDB50 /* PBXTargetDependency */,
+				B609271C1E74AAA5000FDB50 /* PBXTargetDependency */,
+			);
+			name = TimeSlowerKitTests;
+			productName = TimeSlowerKitTests;
+			productReference = B60927171E74AAA5000FDB50 /* TimeSlowerKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6DB01281E718BA900EC068C /* TimeSlower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6DB01541E718BA900EC068C /* Build configuration list for PBXNativeTarget "TimeSlower" */;
+			buildPhases = (
+				C88EC301B63968E33ED3845C /* [CP] Check Pods Manifest.lock */,
+				B6DB01251E718BA900EC068C /* Sources */,
+				B6DB01261E718BA900EC068C /* Frameworks */,
+				B6DB01271E718BA900EC068C /* Resources */,
+				B60927291E74AAA5000FDB50 /* Embed Frameworks */,
+				55B7B40EA35268AC5A0A3A75 /* [CP] Embed Pods Frameworks */,
+				3E724336F3D70F00A77514B2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B60927231E74AAA5000FDB50 /* PBXTargetDependency */,
 			);
 			name = TimeSlower;
 			productName = TimeSlower;
@@ -244,9 +453,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6DB01571E718BA900EC068C /* Build configuration list for PBXNativeTarget "TimeSlowerTests" */;
 			buildPhases = (
+				A57028B04A096EB0A08A7EED /* [CP] Check Pods Manifest.lock */,
 				B6DB013C1E718BA900EC068C /* Sources */,
 				B6DB013D1E718BA900EC068C /* Frameworks */,
 				B6DB013E1E718BA900EC068C /* Resources */,
+				294E41F31132F3B3E51FD165 /* [CP] Embed Pods Frameworks */,
+				C2B6BCD3414EE637038E3FF4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -286,6 +498,16 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Alex Shcherbakov";
 				TargetAttributes = {
+					B609270E1E74AAA5000FDB50 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					B60927161E74AAA5000FDB50 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B6DB01281E718BA900EC068C;
+					};
 					B6DB01281E718BA900EC068C = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
@@ -318,11 +540,27 @@
 				B6DB01281E718BA900EC068C /* TimeSlower */,
 				B6DB013F1E718BA900EC068C /* TimeSlowerTests */,
 				B6DB014A1E718BA900EC068C /* TimeSlowerUITests */,
+				B609270E1E74AAA5000FDB50 /* TimeSlowerKit */,
+				B60927161E74AAA5000FDB50 /* TimeSlowerKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B609270D1E74AAA5000FDB50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60927151E74AAA5000FDB50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B6DB01271E718BA900EC068C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -351,24 +589,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		294E41F31132F3B3E51FD165 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeSlower-TimeSlowerTests/Pods-TimeSlower-TimeSlowerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E724336F3D70F00A77514B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeSlower/Pods-TimeSlower-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55B7B40EA35268AC5A0A3A75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeSlower/Pods-TimeSlower-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A57028B04A096EB0A08A7EED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2B6BCD3414EE637038E3FF4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeSlower-TimeSlowerTests/Pods-TimeSlower-TimeSlowerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C88EC301B63968E33ED3845C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		B609270A1E74AAA5000FDB50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60927371E74B295000FDB50 /* Estimates.swift in Sources */,
+				B60927311E74ACD1000FDB50 /* Activity.swift in Sources */,
+				B60927391E74B2BA000FDB50 /* Weekday.swift in Sources */,
+				B60927351E74B284000FDB50 /* Stats.swift in Sources */,
+				B609273B1E74B3F9000FDB50 /* Result.swift in Sources */,
+				B60927331E74B27D000FDB50 /* Timing.swift in Sources */,
+				B609272F1E74AB1C000FDB50 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60927131E74AAA5000FDB50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B609271F1E74AAA5000FDB50 /* TimeSlowerKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B6DB01251E718BA900EC068C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B698E2FD1E74DFE3007F717F /* Resource.swift in Sources */,
 				B60926E61E74582D000FDB50 /* CreateActivityViewController.swift in Sources */,
+				B698E2FF1E74E0ED007F717F /* Persistable.swift in Sources */,
 				B60926E51E74582D000FDB50 /* ActivityListViewController.swift in Sources */,
 				B60927031E74A279000FDB50 /* Router.swift in Sources */,
 				B60927021E74A279000FDB50 /* RootViewController.swift in Sources */,
 				B6EBFBA11E719F7D0061BA37 /* Constants.swift in Sources */,
 				B60927061E74A279000FDB50 /* ViewControllerFactory.swift in Sources */,
-				B6DB01351E718BA900EC068C /* TimeSlower.xcdatamodeld in Sources */,
 				B6DB01621E71908E00EC068C /* Environment.swift in Sources */,
-				B60927041E74A279000FDB50 /* StoryboardInstantiatable.swift in Sources */,
 				B60927051E74A279000FDB50 /* ViewControllerBuilder.swift in Sources */,
 				B6DB012D1E718BA900EC068C /* AppDelegate.swift in Sources */,
 				B60927001E74A279000FDB50 /* Destination.swift in Sources */,
 				B60927011E74A279000FDB50 /* PresentationStyle.swift in Sources */,
+				B698E3771E7C1ACC007F717F /* LocalResource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +745,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B609271A1E74AAA5000FDB50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B609270E1E74AAA5000FDB50 /* TimeSlowerKit */;
+			targetProxy = B60927191E74AAA5000FDB50 /* PBXContainerItemProxy */;
+		};
+		B609271C1E74AAA5000FDB50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6DB01281E718BA900EC068C /* TimeSlower */;
+			targetProxy = B609271B1E74AAA5000FDB50 /* PBXContainerItemProxy */;
+		};
+		B60927231E74AAA5000FDB50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B609270E1E74AAA5000FDB50 /* TimeSlowerKit */;
+			targetProxy = B60927221E74AAA5000FDB50 /* PBXContainerItemProxy */;
+		};
 		B6DB01421E718BA900EC068C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B6DB01281E718BA900EC068C /* TimeSlower */;
@@ -439,6 +808,79 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B60927271E74AAA5000FDB50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TimeSlowerKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oneLastDay.TimeSlowerKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B60927281E74AAA5000FDB50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TimeSlowerKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oneLastDay.TimeSlowerKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B609272B1E74AAA5000FDB50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TimeSlowerKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oneLastDay.TimeSlowerKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeSlower.app/TimeSlower";
+			};
+			name = Debug;
+		};
+		B609272C1E74AAA5000FDB50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TimeSlowerKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oneLastDay.TimeSlowerKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeSlower.app/TimeSlower";
+			};
+			name = Release;
+		};
 		B6DB01521E718BA900EC068C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -534,7 +976,9 @@
 		};
 		B6DB01551E718BA900EC068C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B971D1650C4D1353B157BD82 /* Pods-TimeSlower.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TimeSlower/Info.plist;
@@ -548,7 +992,9 @@
 		};
 		B6DB01561E718BA900EC068C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 497FA0A83F4E9E2FC7A54D13 /* Pods-TimeSlower.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TimeSlower/Info.plist;
@@ -562,6 +1008,7 @@
 		};
 		B6DB01581E718BA900EC068C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5D3EA7586F8E27309DF1BF8 /* Pods-TimeSlower-TimeSlowerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -576,6 +1023,7 @@
 		};
 		B6DB01591E718BA900EC068C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12085285336A5E9A2F1EC324 /* Pods-TimeSlower-TimeSlowerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -617,6 +1065,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B60927261E74AAA5000FDB50 /* Build configuration list for PBXNativeTarget "TimeSlowerKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60927271E74AAA5000FDB50 /* Debug */,
+				B60927281E74AAA5000FDB50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B609272A1E74AAA5000FDB50 /* Build configuration list for PBXNativeTarget "TimeSlowerKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B609272B1E74AAA5000FDB50 /* Debug */,
+				B609272C1E74AAA5000FDB50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B6DB01241E718BA900EC068C /* Build configuration list for PBXProject "TimeSlower" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -654,19 +1120,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		B6DB01331E718BA900EC068C /* TimeSlower.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				B6DB01341E718BA900EC068C /* TimeSlower.xcdatamodel */,
-			);
-			currentVersion = B6DB01341E718BA900EC068C /* TimeSlower.xcdatamodel */;
-			path = TimeSlower.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = B6DB01211E718BA900EC068C /* Project object */;
 }
