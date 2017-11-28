@@ -8,8 +8,8 @@
 
 import Foundation
 
-
 internal struct LocalResource: Resource {
+
     internal func create<T : Persistable>(_ object: T, completion: (T) -> Void) {
         return completion("" as! T)
     }
@@ -17,7 +17,5 @@ internal struct LocalResource: Resource {
     func retrieve<T : Persistable>(_ key: String) -> T? {
         return nil
     }
-}
 
-// 1. Is saving async? - yes because it has to account for hybrid
-// 2. LocalResource -> LocalResourceAdapter -> DataConverter (Model <-> ManagedObject)
+}

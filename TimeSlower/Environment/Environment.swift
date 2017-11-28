@@ -20,6 +20,7 @@ internal final class AppEnvironment: Environment {
 
     let router: Router = AppRouter()
     let builder: ViewControllerBuilder = AppViewControllerBuilder()
+
     private var window: UIWindow?
 
     func run(in window: UIWindow?) {

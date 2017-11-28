@@ -44,7 +44,10 @@ internal struct ViewControllerFactory {
             fatalError("Controller \(String(describing: T.self)) should be instantiated")
         }
 
-        guard let controller = storyboard.instance().instantiateViewController(withIdentifier: String(describing: T.self)) as? T else {
+        guard let controller = storyboard
+            .instance()
+            .instantiateViewController(withIdentifier: String(describing: T.self)) as? T
+        else {
             fatalError("Controller \(String(describing: T.self)) should be instantiated")
         }
 
