@@ -6,7 +6,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 target "TimeSlower" do
 
     # https://github.com/prolificinteractive/AddressGeocoder
-    pod 'ReactiveCocoa', '5.0.0'
+    pod 'ReactiveCocoa', '7.0.1'
 
     target "TimeSlowerTests" do
 

@@ -82,7 +82,6 @@ internal final class AppRouter {
         case .present(let presenter):
             presenter?.present(viewController, animated: true, completion: nil)
         }
-
     }
     
 }
